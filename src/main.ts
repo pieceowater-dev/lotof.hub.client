@@ -8,6 +8,7 @@ import router from './router';
 import { createI18n } from 'vue-i18n';
 import en from './locales/en.json';
 import ru from './locales/ru.json';
+import './assets/base.css';
 
 // Detect user's system language or use persisted locale
 const userLanguage = navigator.language.split('-')[0]; // Get language code (e.g., 'en' from 'en-US')

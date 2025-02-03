@@ -1,0 +1,53 @@
+/* Global body background color */
+body {
+    background-color: white !important;
+    color: #2C2C2C; /* Default text color */
+}
+
+/* Accent Colors */
+:root {
+    --accent: #1A59A8FF;
+    --primary: #3668A8FF;
+    --secondary: #41668FFF;
+    --text-color: #2C2C2CFF;
+    --light-text-color: #383838FF;
+}
+
+/* Example usage for common elements */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+}
+
+p, span, div {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+/* Buttons (example for NButton if you're using Naive UI) */
+button, .n-button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+button:hover, .n-button:hover {
+    background-color: var(--secondary);
+}
+
+/* Apply for general text */
+body {
+    color: var(--text-color);
+}
+
+/* Light text for specific areas */
+.light-text {
+    color: var(--light-text-color);
+}
